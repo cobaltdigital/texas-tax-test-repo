@@ -1,0 +1,67 @@
+name: Deploy InstaWP -> GitHub
+
+on:
+  schedule:
+    - cron: "0 0 * * *"    # once per day at 00:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install lftp
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y lftp
+
+      - name: Deploy from InstaWP via SFTP
+        env:
+          SFTP_PORT: 22
+          SFTP_HOST: ${{ secrets.INSTAWP_SFTP_HOST }}
+          SFTP_USER: ${{ secrets.INSTAWP_SFTP_USER }}
+          SFTP_PASS: ${{ secrets.INSTAWP_SFTP_PASS }}
+          REMOTE_PATH: web/wordpress-oxygen-base.instawp.dev/public_html/wp-content
+          LOCAL_PATH: wp-content
+        run: |
+          mkdir -p "$LOCAL_PATH"
+          lftp -u "$SFTP_USER","$SFTP_PASS" sftp://$SFTP_HOST:$SFTP_PORT << EOF
+          set sftp:auto-confirm yes
+          set net:timeout 25
+          set net:max-retries 2
+          mirror --verbose \
+                 --only-newer \
+                 --parallel=4 \
+                 --exclude-glob .git* \
+                 --exclude-glob cache/* \
+                 --exclude-glob upgrades/* \
+                 $REMOTE_PATH $LOCAL_PATH
+          bye
+          EOF
+
+      - name: Normalize git settings
+        run: |
+          git config core.fileMode false
+          git config core.autocrlf input
+          
+      - name: Configure git author
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Commit & push if changed
+        run: |
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git add -A
+            git commit -m "Mirror from InstaWP $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+            git push
+          else
+            echo "No changes detected."
+          fi
