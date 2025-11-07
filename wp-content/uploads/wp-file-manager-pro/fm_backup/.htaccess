@@ -1,0 +1,5 @@
+<FilesMatch "\.(zip|gz)$">
+Order allow,deny
+Deny from all
+</Files>
+# url_path: 

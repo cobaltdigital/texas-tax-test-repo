@@ -1,0 +1,575 @@
+/* Tablet Portrait size 768 to standard 979 (devices and browsers) */
+
+@media only screen and (min-width: 350px) and (max-width: 1030px) {
+	.crellyslider{margin-top: 45px;}
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+	
+	
+	
+	
+	
+.top-header {  width: 740px; margin: 0px auto; }
+.slogan-bg h1 { font-size: 47px;	 }
+.readmore { font-size: 20px; }	
+.slogan h2 { font-size: 30px;	 }
+	
+.box-2 h2 { font-size: 21px; }	
+.box-2 p br { display:none;}	
+.post-footer ul li { border-bottom: 0px solid #5f5f5f;	 }
+.footer-list p { font-size: 14px; }
+#social-icon .nav li {  width: 48px !important;  height: 48px !important; }
+.testi .patients li .imgbox {  margin-bottom: 100px;}	
+#social-icon .nav li.facebook a { background:url(images/facebook-icon.png)10px 17px no-repeat; }
+#social-icon .nav li.twitter a { background: url(images/twitter-icon.png) 10px 20px no-repeat; }
+#social-icon .nav li.youtube a { background: url(images/youtube.png) 10px 18px no-repeat; }
+	
+#social-icon .nav li.facebook:hover a { background: url(images/facebook-icon.png) 10px -58px no-repeat; }
+#social-icon .nav li.twitter:hover a { background: url(images/twitter-icon.png) 10px -62px no-repeat; }
+#social-icon .nav li.youtube:hover a { background: url(images/youtube.png) 10px -60px no-repeat; }
+
+
+
+
+
+.header-img { width: 100%; height: 100%; }
+.page-template-template-full-width .slogan-bg { margin-top:-7px;}
+
+
+
+
+
+
+
+
+
+	/*-----------------------------------------------------------------------------------*/
+	/*	Header
+	/*-----------------------------------------------------------------------------------*/
+	#wrapper #header { width: 100%; display: none;}
+
+
+    /*-----------------------------------------------------------------------------------*/
+    /*	Header
+    /*-----------------------------------------------------------------------------------*/
+    #wrapper #header .logo { position: static; display: inline; top: auto; left: auto; text-align: center; }
+    #wrapper #header .logo img { display: block; margin: 0px auto 10px; width:99%; }
+    #wrapper #header .logo .tagline { display:block; margin: 0px 0px 10px; }
+    #wrapper #header #logo-container { text-align: center; }
+
+    /* Social Nav Styles ----------------------------------------------------------*/
+    #wrapper #header .social-nav {  position: relative; display:block; top: auto; right: auto; margin: 0px 0px 15px; text-align:right; }
+    #wrapper #header .social-nav li { display: inline-block; margin-bottom:10px; }
+
+    #wrapper #header .main-nav ul li a{ padding: 0px 14px; font-size: 13px; }
+.main-nav > div ul li ul {width: 180px; }
+.main-nav > div ul li ul li { width: 163px; }
+.main-nav > div ul li ul li a { width: 166px;}
+		
+
+	
+	
+	
+	/*-----------------------------------------------------------------------------------*/
+	/*	Container and Services
+	/*-----------------------------------------------------------------------------------*/	
+	#wrapper .page-head { width:650px; }
+	#wrapper #container { width: 740px; }	
+	#wrapper #container #content { width: 480px; }	
+	#wrapper #container #content.full-width{ width:740px; }
+	#wrapper #container #sidebar { width: 240px; float: right; margin: 0px 0px 30px; }
+	#wrapper .services { padding: 0px 0px 30px; margin: 0px 0px 30px; }
+	#wrapper .services .service { width: 132px; margin: 0px 8px;}
+	.services .service h4 a { font-size: 20px; }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+    #wrapper .services.item-count-4 .service{ width: 165px; margin: 0px 10px; }
+    #wrapper .services.item-count-3 .service{ width: 220px; margin: 0px 13px; }
+    #wrapper .services.item-count-2 .service{ width: 330px; margin: 0px 20px; }
+    #wrapper .services.item-count-1 .service{ width: 740px; margin: 0px auto; }
+	
+	
+	/*-----------------------------------------------------------------------------------*/
+	/*	Services Page Styles
+	/*-----------------------------------------------------------------------------------*/
+	.service-list.three-col ul li { width: 100%; padding: 0px 0px 35px; margin: 0px 0px 35px 30px; float: none; }
+	.service-list.three-col figure { float:left; margin:0px 30px 30px 0px; }	
+	.service-list.four-col ul li { width: 355px; padding: 0px 0px 35px; margin: 0px 0px 35px 30px; float: left; }
+	.service-list.four-col figure { width: 160px; height:auto; float:left; margin: 0px 15px 15px 0px;  }
+	
+	
+	/*-----------------------------------------------------------------------------------*/
+	/*	Team
+	/*-----------------------------------------------------------------------------------*/
+	#wrapper .home-left-side {  }
+	#wrapper .official .team { width: 480px; margin:0 0 10px; }
+	#wrapper .official .team p { margin: 0px 0px 15px; }
+	#wrapper .official .team .doctors li { width: 100%; float: none; margin: 0px 0px 10px; position: relative; overflow: hidden; }
+	#wrapper .official .team .doctors li h4 { border-bottom: 1px solid #e6e6e6; margin: 0px 0px 10px; padding: 0px 0px 5px; }
+	#wrapper .official .team .doctors li .doc-img { width: 126px; height: 100px; margin: 0px 20px 10px 0px; float: left; }	
+	#wrapper .official .team .doctors li .doc-img img { width: 100%; }
+	#wrapper .official .team .doctors li .doc-img .doc-type {  padding: 3px 5px; font-size:10px; line-height:12px; }	
+	#wrapper .official .team .readmore { display:none; }	
+	#wrapper .official .appointment { margin: 10px 0px 50px; }
+	
+	
+	/*-----------------------------------------------------------------------------------*/
+	/*	Testimonials
+	/*-----------------------------------------------------------------------------------*/
+	#wrapper .testi {  padding-right:0px; }
+	#wrapper .testi .author { text-align: left; }
+	#wrapper .newsletter{ width:240px; }
+	#wrapper .newsletter p { margin: 0px 0px 20px; }
+	#wrapper .newsletter #newsletter input[type="submit"] { margin: 10px 0px 0px 0px;  }
+	
+	/*-----------------------------------------------------------------------------------*/
+	/*	Footer Area
+	/*-----------------------------------------------------------------------------------*/
+	footer { width: 740px; }
+	footer { padding: 60px 0px; }
+	footer .footer-widget { width: 173px; margin: 0px 16px 0px 0px; }
+	footer .footer-widget h3 { font-size: 18px; margin: 0px 0px 20px; }
+	footer .footer-widget p { margin: 0px 0px 15px; }
+    #footer-wrap { min-width: 740px; }
+    #footer-bottom-wrapper { min-width: 740px; }
+	
+
+
+	/*-----------------------------------------------------------------------------------*/
+	/*	Footer Bottom Styles
+	/*-----------------------------------------------------------------------------------*/
+	#footer-bottom { width: 740px; }
+
+
+
+	/*-----------------------------------------------------------------------------------*/
+	/*	Doctors List Styles
+	/*-----------------------------------------------------------------------------------*/
+	.doc_list { margin: 0px 0px 30px; }
+	.doc_list .doctors li { width: 355px; margin: 0px 0px 30px 30px; }
+	.doc_list .doctors li .doc-img { width: 170px; height: 135px; }
+	.doc_list .doctors li .doc-img img { display: block; position: relative; width: 100%; }
+	
+	.doc_list.four_col .doctors li { width: 226px; margin: 0px 0px 30px 30px; }
+	.doc_list.four_col .doctors li .doc-img { width: 214px; height: 148px; float: none; margin: 0px 0px 20px 0px; overflow: hidden; }
+	
+	
+	
+	/*-----------------------------------------------------------------------------------*/
+	/*	Contact Page Styles
+	/*-----------------------------------------------------------------------------------*/
+	#map_canvas{ width:472px; }
+	#contact-form textarea{ width:460px; }
+	#sidebar .appointment { width:240px; float:none; margin:0px 0px 20px;  }
+	#sidebar .appointment .header { text-align:center; }
+	#sidebar .appointment .header h2{ font-size:18px;  }
+	#sidebar .appointment .header h3{ font-size: 18px; }
+	#sidebar .appointment .select-wrap{ display:block; margin-bottom:15px; }
+	#sidebar .widget #searchform input[type="text"] { margin-bottom:10px; }
+	#sidebar .widget #searchform input[type="submit"] { margin: 0px 0px 0px 0px; }
+	
+	
+
+}
+
+
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	
+	
+	.top-header {  width: 440px; margin: 0px auto; }
+	.header-left { width: 100%; float: none;}
+	.header-right { width: 100%; float: none;}
+.slogan-bg h1 { font-size: 47px; text-align:center;	 }
+.slogan-bg a {  margin: 0px auto ; width: 250px; float: none ; display: inherit;}
+.readmore { font-size: 20px; }	
+.slogan h2 { font-size: 22px;	 }
+.box-2 h2 { font-size: 21px; }	
+.box-2 p br { display:none;}	
+.post-footer ul li { border-bottom: 1px solid #5f5f5f;	}
+.footer-list p { font-size: 14px; }
+#social-icon .nav li {  width: 58px !important;  height: 58px !important; }
+.testi .patients li .imgbox {  margin-bottom: 10px;}
+#header .social-nav li.phone span { display:inline-block;	 }
+.box-1 {  float: none;  width: 100%;  margin-right: 0%; text-align:center;}	
+.box-1 img { width:100%; }
+.box-2 { float: none; text-align:center;  width:100%;}
+.testi .patient-nav { margin: 0px 0px 0px 0px;}	
+	
+	
+	
+	.header-img { width: 100%; height: 100%; }
+.page-template-template-full-width .slogan-bg { margin-top:-7px;}
+	
+	
+
+	/*-----------------------------------------------------------------------------------*/
+	/*	Header
+	/*-----------------------------------------------------------------------------------*/
+	#wrapper #header { width: 440px; height: auto; display: none;}
+	#wrapper #header .logo { position: static; display: inline; top: auto; left: auto; text-align: center; }
+	#wrapper #header .logo img { display: block; margin: 0px auto 0px; width:80%; }
+	#wrapper #header .logo .tagline { display:block; margin: 0px 0px 10px; }
+    #wrapper #header #logo-container { text-align: center; }
+	
+/* Social Nav Styles ----------------------------------------------------------*/
+		#wrapper #header .social-nav { display:block; position: relative; top: auto; right: auto; margin:0px; text-align: center; }
+		#wrapper #header .social-nav li { display: inline-block; float: none; border:none;  }
+		#wrapper #header .social-nav li.phone { display:block; clear:both; margin:0 auto;  }
+		
+		/* Main Nav Styles ----------------------------------------------------------*/
+		#wrapper #header .main-nav .responsive-nav { display: block; }
+        #wrapper #header .main-nav > div { float: none; width:100%;  }
+		#wrapper #header .main-nav { border-radius: none; position: relative; width: auto; height: auto; margin: 0px 0px 0px; padding: 0px 0px 10px; width:100%; }
+		/*#wrapper #header .main-nav ul { display:none;} */
+		#wrapper #header .main-nav ul li {height: 28px; border-right:none; border-bottom-style:solid; border-bottom-width:1px; }
+		#wrapper #header .main-nav ul li:first-child { border-radius: 0px; }
+		#wrapper #header .main-nav ul li a { display: block; width: 250px; line-height: 28px; text-align: left; }	
+		#wrapper #header .main-nav ul li ul { display: none; width: 140px; padding: 0px; position: absolute; top: 28px; left: 0px; z-index: 8899; border-bottom-left-radius: 3px; -moz-border-radius-bottomleft: 3px; -webkit-border-bottom-left-radius: 3px; border-bottom-right-radius: 3px; -moz-border-radius-bottomright: 3px; -webkit-border-bottom-right-radius: 3px; }
+		#wrapper #header .main-nav ul li ul li { width: 120px; height: auto; padding: 0px 10px; position: relative; }
+		#wrapper #header .main-nav ul li ul li a { display: inline-block; height: 27px; line-height: 27px; padding: 0px 9px; border: none; }
+		#wrapper #header .main-nav ul li ul li:hover > a { background: none; border: none; }
+		#wrapper #header .main-nav ul li ul li ul { position: static; margin-left: -12px; }
+		#wrapper #header .main-nav ul li ul li ul li ul {  }	
+	
+
+	
+	
+	
+	/*-----------------------------------------------------------------------------------*/
+	/*	Container
+	/*-----------------------------------------------------------------------------------*/	
+	#wrapper .page-head { width:390px; padding: 25px 25px 20px; }
+	#wrapper #container { width: 440px; }	
+	#wrapper #container #content { width: 440px; margin: 0px auto 20px; }	
+	#wrapper #container #sidebar { width: 440px; float: none; clear:both; margin: 0px auto 20px; }
+	#wrapper #container #content.full-width{ width:440px; }
+	
+	
+	
+	/*-----------------------------------------------------------------------------------*/
+	/*	Columns Style
+	/*-----------------------------------------------------------------------------------*/
+	#container .columns .one-third,
+	#container .columns .one-fourth,	
+	#container .columns .one-half,
+	#container .columns .three-fourth,
+	#container .columns .two-third,
+	#container .columns .single-col { width: 98%; margin: 0px 0px 0px 2%; }
+	
+	
+	
+	/*-----------------------------------------------------------------------------------*/
+	/*	Slogans
+	/*-----------------------------------------------------------------------------------*/
+	.slogan { margin: 0px 0px 35px; }
+	
+		
+	
+	
+	
+	/*-----------------------------------------------------------------------------------*/
+	/*	Services
+	/*-----------------------------------------------------------------------------------*/
+	#wrapper .services { padding: 0px 0px 20px; margin: 0px 0px 20px; }
+	#wrapper .services .service { width:100%; float:none; overflow:hidden; text-align:center; margin-bottom:10px; margin: 0px 15px 0px 0px;}
+	#wrapper .services .service h4{ padding-top:10px;}
+	#wrapper .services .service .service-thumb { float: none;
+margin: 0px auto;
+text-align: center; width:250px; }
+	
+	
+		
+	
+	
+	/*-----------------------------------------------------------------------------------*/
+	/*	Team
+	/*-----------------------------------------------------------------------------------*/
+	#wrapper .home-left-side { width:440px; float:none; }
+	#wrapper .official { border-bottom: 1px solid #e6e6e6; }
+	#wrapper .official .team { width: auto; float:none; padding-bottom:20px;  margin-bottom:20px; }
+	#wrapper .official .team p { margin: 0px 0px 15px; }
+	#wrapper .official .team .doctors li { width: 100%; float: none; margin: 0px 0px 10px; position: relative; overflow: hidden; }
+	#wrapper .official .team .doctors li h4 { border-bottom: 1px solid #e6e6e6; margin: 0px 0px 10px; padding: 0px 0px 5px; }
+	#wrapper .official .team .doctors li .doc-img { width: 126px; height: 100px; margin: 0px 20px 10px 0px; float: left; }	
+	#wrapper .official .team .doctors li .doc-img img { width: 100%; }
+	#wrapper .official .team .doctors li .doc-img .doc-type {  padding: 3px 5px; font-size:10px; line-height:12px; }	
+	#wrapper .official .team .readmore { float: right; }	
+	
+	
+	
+	/*-----------------------------------------------------------------------------------*/
+	/*	Apppointment Form
+	/*-----------------------------------------------------------------------------------*/
+	#wrapper .official .appointment { float:none; margin:0px auto 20px;  }
+	#wrapper .appointment .header .number { font-size:18px;}
+	
+	
+	/*-----------------------------------------------------------------------------------*/
+	/*	Testimonials
+	/*-----------------------------------------------------------------------------------*/
+	#wrapper .testi { width: 440px; padding:0px 0px 20px; float:none; margin:20px 0px; border-bottom: 1px solid #e6e6e6; margin-bottom:20px; }
+	#wrapper .testi .author { text-align: left; }
+	
+	
+	
+	/*-----------------------------------------------------------------------------------*/
+	/*	Newsletter
+	/*-----------------------------------------------------------------------------------*/
+	.newsletter { float: none; margin:0 auto; }
+	
+	
+	
+	/*-----------------------------------------------------------------------------------*/
+	/*	Footer Area
+	/*-----------------------------------------------------------------------------------*/
+	footer {  width: 440px; padding: 40px 0px 20px; }
+	footer .footer-widget { float:none; width: 400px; margin: 0px 20px 20px 20px; }
+	footer .footer-widget h3 { font-size: 24px; margin: 0px 0px 10px; }
+	footer .footer-widget p { margin: 0px 0px 15px; }
+    #footer-wrap { min-width: 440px; }
+    #footer-bottom-wrapper { min-width: 440px; }
+	
+	
+	
+	/*-----------------------------------------------------------------------------------*/
+	/*	Footer Bottom Styles
+	/*-----------------------------------------------------------------------------------*/
+	#footer-bottom { width: 440px; height: auto; padding: 7px 0px 0px; }
+	#footer-bottom p { font-size: 12px; line-height: 30px; text-align:center; }
+	#footer-bottom .copyrights { float: none; }
+	
+
+
+	
+	/*-----------------------------------------------------------------------------------*/
+	/*	Doctors List Styles
+	/*-----------------------------------------------------------------------------------*/	
+	.doc_list { margin: 0px 0px 30px; }
+	.doc_list .doctors li { width: 440px; margin: 0px 0px 30px 30px; }
+	.doc_list .doctors li .doc-img { width: 214px; height: 170px; }
+	.doc_list .doctors li .doc-img img { display: block; position: relative; width: 100%; }
+
+	.doc_list.four_col .doctors li { width: 205px; margin: 0px 0px 30px 30px; }
+	.doc_list.four_col .doctors li .doc-img { width: 197px; height: auto; float: none; margin: 0px 0px 20px 0px; overflow: hidden; }	
+	
+	
+	
+	/*-----------------------------------------------------------------------------------*/
+	/*	Contact Page Styles
+	/*-----------------------------------------------------------------------------------*/
+	#map_canvas{ width:432px; }
+	#contact-form textarea{ width:420px; }
+	#sidebar .appointment { float:none; margin:0px auto 20px;  }
+	#sidebar .widget #searchform input[type="text"] { width:70%; }
+	#sidebar .widget #searchform input[type="submit"] { margin: 0px 0px 0px 10px; }
+	
+	
+	
+	
+
+}
+
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px){
+	.slog-1 { width: 45px; }
+	
+	
+	
+		.top-header {  width: 290px; margin: 0px auto; }
+	.header-left { width: 100%; float: none;}
+	.header-right { width: 100%; float: none;}
+.slogan-bg h1 { font-size: 28px; text-align:left;	line-height: 60px; }
+.slogan-bg a {  margin: 0px auto ; width: 200px; float: none ; display: inherit;}
+.readmore { font-size: 20px; padding: 0px 30px; }	
+.slogan h2 { font-size: 22px;	 }
+.box-2 h2 { font-size: 21px; }	
+	
+.post-footer ul li { border-bottom: 0px solid #5f5f5f;	 }
+.footer-list p { font-size: 14px; }
+#social-icon .nav li {  width: 58px !important;  height: 58px !important; }
+.testi .patients li .imgbox {  margin-bottom: 10px;}
+#header .social-nav li.phone span { display:inline-block;	 }
+.box-1 {  float: none;  width: 100%;  margin-right: 0%; text-align:center;}	
+.box-1 img { width:100%; }
+.box-2 { float: none; text-align:center;  width:100%;}
+.testi .patient-nav { margin: 0px 0px 0px 0px;}	
+.box-2 p a { width:100%;}	
+.services h1 { font-size: 31px;	 }
+	
+	
+	
+	
+		.header-img { width: 100%; height: 100%; }
+.page-template-template-full-width .slogan-bg { margin-top:-7px;}
+h2 { font-size: 22px;	}
+	
+
+	/*-----------------------------------------------------------------------------------*/
+	/*	Header
+	/*-----------------------------------------------------------------------------------*/
+	#wrapper #header { width: 100%; height: auto; display: none; }
+	#wrapper #header .logo { position: static; display: inline; top: auto; left: auto; text-align: center; }
+	#wrapper #header .logo img { display: block; margin: 0px auto 10px; width:80%; }
+	#wrapper #header .logo .tagline { display:block; margin: 0px 0px 10px; }
+    #wrapper #header #logo-container { text-align: center; }
+	
+		/* Social Nav Styles ----------------------------------------------------------*/
+		#wrapper #header .social-nav { display:block; position: relative; top: auto; right: auto; margin:0px; text-align: center; }
+		#wrapper #header .social-nav li { display: inline-block; float: none; border:none;  }
+		#wrapper #header .social-nav li.phone { display:block; clear:both; margin:0 auto;  }
+		
+		/* Main Nav Styles ----------------------------------------------------------*/
+		#wrapper #header .main-nav .responsive-nav { display: block;  }
+        #wrapper #header .main-nav > div { float: none; }
+		#wrapper #header .main-nav { border-radius: none; position: relative; width: auto; height: auto; margin: 0px 0px 0px; padding: 0px 0px 10px;  }
+		#wrapper #header .main-nav ul li {height: 28px; border-right:none; border-bottom-style:solid; border-bottom-width:1px; }
+		#wrapper #header .main-nav ul li:first-child { border-radius: 0px; }
+		#wrapper #header .main-nav ul li a { display: block; width: 250px; line-height: 28px; text-align: left; }	
+		#wrapper #header .main-nav ul li ul { display: none; padding: 0px; position: absolute; top: 28px; left: 0px; z-index: 8899; border-bottom-left-radius: 3px; -moz-border-radius-bottomleft: 3px; -webkit-border-bottom-left-radius: 3px; border-bottom-right-radius: 3px; -moz-border-radius-bottomright: 3px; -webkit-border-bottom-right-radius: 3px; }
+		#wrapper #header .main-nav ul li ul li {height: auto; padding: 0px 10px; position: relative; }
+		#wrapper #header .main-nav ul li ul li a { display: inline-block; height: 27px; line-height: 27px; padding: 0px 9px; border: none; }
+		#wrapper #header .main-nav ul li ul li:hover > a { background: none; border: none; }
+		#wrapper #header .main-nav ul li ul li ul { position: static; margin-left: -12px; }
+		#wrapper #header .main-nav ul li ul li ul li ul {  }	
+		
+		
+	
+	
+
+	
+	
+	
+	/*-----------------------------------------------------------------------------------*/
+	/*	Container
+	/*-----------------------------------------------------------------------------------*/	
+	#wrapper .page-head { width:270px; padding: 15px 10px 10px; }
+	#wrapper #container { width: 290px; }	
+	#wrapper #container #content { width: 290px; margin: 0px auto 20px; }	
+	#wrapper #container #sidebar { width: 290px; float: none; clear:both; margin: 0px auto 20px; }
+	
+	
+	/*-----------------------------------------------------------------------------------*/
+	/*	Columns Style
+	/*-----------------------------------------------------------------------------------*/
+	#container .columns .one-third,
+	#container .columns .one-fourth,	
+	#container .columns .one-half,
+	#container .columns .three-fourth,
+	#container .columns .two-third,
+	#container .columns .single-col { width: 98%; margin: 0px 0px 0px 2%; }
+	
+	
+	/*-----------------------------------------------------------------------------------*/
+	/*	Slogans
+	/*-----------------------------------------------------------------------------------*/
+	.slogan { margin: 0px 0px 35px; }
+		
+	
+	
+	
+	/*-----------------------------------------------------------------------------------*/
+	/*	Services
+	/*-----------------------------------------------------------------------------------*/
+	#wrapper .services { padding: 0px 0px 20px; margin: 0px 0px 20px; }
+	#wrapper .services .service { width:96%; float:none; overflow:hidden; text-align:center; margin:0px auto; }
+	#wrapper .services .service h4{ padding-top:15px;}
+	#wrapper .services .service .service-thumb { float:none; margin:0px auto; }		
+	
+	
+	/*-----------------------------------------------------------------------------------*/
+	/*	Services Page Styles
+	/*-----------------------------------------------------------------------------------*/
+	.service-list.single-col ul li { padding: 0px 0px 35px; margin: 0px 0px 35px; }
+	.service-list.single-col figure { width: 282px; height: auto; float: none; margin: 0px 0px 20px 0px;  }
+	.service-list.single-col figure img { width: 100%; height: auto; }
+	.service-list.three-col ul li { width: 100%; padding: 0px 0px 35px; margin: 0px 0px 35px 30px; float: none; }
+	.service-list.three-col figure {  width: 282px; height: auto; margin: 0px 0px 20px 0px; }
+	.service-list.four-col ul{ margin:0px;}
+	.service-list.four-col ul li { width: 222px; padding: 0px 0px 20px; margin: 0px auto 20px; float: none; text-align:center; }
+	.service-list.four-col figure { width: 214px; height:auto; float:left; margin: 0px 20px 20px 0px;  }		
+	
+	/*-----------------------------------------------------------------------------------*/
+	/*	Team
+	/*-----------------------------------------------------------------------------------*/
+	#wrapper .home-left-side { width:290px; float:none;  }
+	#wrapper .official { border-bottom: 1px solid #e6e6e6; }
+	#wrapper .official .team { width: auto; float:none; padding-bottom:20px; border-bottom: 1px solid #e6e6e6; margin-bottom:20px; }
+	#wrapper .official .team p { margin: 0px 0px 15px; }
+	#wrapper .official .team .doctors li { width: 100%; float: none; margin: 0px 0px 10px; position: relative; overflow: hidden; }
+	#wrapper .official .team .doctors li h4 { border-bottom: 1px solid #e6e6e6; margin: 0px 0px 10px; padding: 0px 0px 5px; }
+	#wrapper .official .team .doctors li .doc-img { width: 126px; height: 100px; margin: 0px 20px 10px 0px; float: left; }	
+	#wrapper .official .team .doctors li .doc-img img { width: 100%; }
+	#wrapper .official .team .doctors li .doc-img .doc-type {  padding: 3px 5px; font-size:10px; line-height:12px; }	
+	#wrapper .official .team .readmore { float: right; }	
+	
+	
+	
+	/*-----------------------------------------------------------------------------------*/
+	/*	Apppointment Form
+	/*-----------------------------------------------------------------------------------*/
+	#wrapper .official .appointment { width:290px; float:none; margin:0px 0px 20px;  }
+	#wrapper .official .appointment .header { text-align:center; }
+	#wrapper .official .appointment .header h2{ font-size:20px;  }
+	#wrapper .official .appointment .header h3{ font-size: 18px; width:140px; margin:0 auto; }
+	#wrapper .official .appointment .select-wrap{ display:block; margin-bottom:15px; }
+	
+	
+	/*-----------------------------------------------------------------------------------*/
+	/*	Testimonials
+	/*-----------------------------------------------------------------------------------*/
+	#wrapper .testi { width: 290px; padding:0px 0px 20px; float:none; margin:20px 0px; border-bottom: 1px solid #e6e6e6; margin-bottom:20px; }
+	#wrapper .testi h2.smart-head{ font-size:24px;}
+	#wrapper .testi .author { text-align: left; }
+	#wrapper .testi .patient-nav { margin-left:0px; }
+	
+	
+	
+	
+	/*-----------------------------------------------------------------------------------*/
+	/*	Footer Area
+	/*-----------------------------------------------------------------------------------*/
+	footer {  width: 290px; padding: 40px 0px 20px; }
+	footer .footer-widget { float:none; width: 280px; margin: 0px 5px 20px 5px; }
+	footer .footer-widget h3 { font-size: 22px; margin: 0px 0px 10px; }
+	footer .footer-widget p { margin: 0px 0px 15px; }
+    #footer-wrap { min-width: 290px; }
+    #footer-bottom-wrapper { min-width: 290px; }
+	
+	
+	/*-----------------------------------------------------------------------------------*/
+	/*	Footer Bottom Styles
+	/*-----------------------------------------------------------------------------------*/
+	#footer-bottom { width: 290px; height: auto; padding: 7px 0px 5px; }
+	#footer-bottom p { font-size: 11px; line-height: 20px; text-align:center; }
+	#footer-bottom .copyrights { float: none; }
+	#footer-bottom .author { float: none; }
+
+
+	/*-----------------------------------------------------------------------------------*/
+	/*	Doctors List Styles
+	/*-----------------------------------------------------------------------------------*/	
+	.doc_list { margin: 0px 0px 30px; }
+	.doc_list .doctors li { width: 290px; margin: 0px 0px 30px 30px; }
+	.doc_list .doctors li .doc-img { width: 214px; height: 170px; float:none; margin:0 0 20px; }
+	.doc_list .doctors li .doc-img img { display: block; position: relative; width: 100%; }
+
+	.doc_list.four_col .doctors li { width: 290px; margin:0 0 20px 30px; }
+	.doc_list.four_col .doctors li .doc-img { width: 214px; height: auto; float: none; margin: 0px 0px 20px 0px; overflow: hidden; }	
+			
+	
+	
+
+	
+}
