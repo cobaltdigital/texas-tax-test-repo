@@ -28,7 +28,7 @@ jobs:
           SFTP_HOST: ${{ secrets.INSTAWP_SFTP_HOST }}
           SFTP_USER: ${{ secrets.INSTAWP_SFTP_USER }}
           SFTP_PASS: ${{ secrets.INSTAWP_SFTP_PASS }}
-          REMOTE_PATH: web/wordpress-oxygen-base.instawp.dev/public_html/wp-content
+          REMOTE_PATH: web/incredible-sable-97cac4.instawp.site/public_html/wp-content
           LOCAL_PATH: wp-content
         run: |
           mkdir -p "$LOCAL_PATH"
